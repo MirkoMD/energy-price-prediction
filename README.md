@@ -1,6 +1,6 @@
 # Energy Price Prediction
 
-This repository contains the code and report for the project titled "Energy Price Prediction". The project explores the application of various machine learning algorithms in forecasting natural gas spot prices.
+This repository contains the code and report for the project titled "Energy Price Prediction". The project explores the application of various machine learning algorithms in forecasting natural gas spot prices, for the [Numerical Analysis for Machine Learning](https://www11.ceda.polimi.it/schedaincarico/schedaincarico/controller/scheda_pubblica/SchedaPublic.do?&evn_default=evento&c_classe=809914&__pj0=0&__pj1=f9ce19f0c7e1f043013c3ee4c68f43f1) course at PoliMi.
 
 ## Project Structure
 
@@ -39,6 +39,11 @@ The study highlights the effectiveness of linear and ensemble-based machine lear
   - Detailed methodology including descriptions of the machine learning models used.
   - Empirical results for each forecasting horizon (t+1, t+3, t+5, t+10).
   - Conclusions drawn from the results, emphasizing the best-performing models.
+
+## Dataset
+
+The dataset used in this study comprises 2423 daily observations of natural gas spot prices from December 3, 2010, to September 18, 2020. The data was sourced from the [Energy Information Administration (EIA)](https://www.eia.gov/dnav/ng/hist/rngwhhdW.htm) and supplemented with 21 related economic variables from the Federal Reserve Bank of Saint Louis and Yahoo Finance databases.
+
 
 ## Dependencies
 
